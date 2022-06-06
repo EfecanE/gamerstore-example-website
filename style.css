@@ -1,0 +1,54 @@
+body {
+    background-color: silver;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+.game-logo {
+    border: 1px solid rgb(17, 14, 14);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-name {
+    text-align: center;
+}
+
+.game-price {
+    text-align: center;
+}
+
+.game-description {
+    text-align: center;
+}
+
+.game-description-heading {
+    text-align: center;
+}
+
+#products-heading {
+    text-align: center;
+}
+
+#page-heading {
+    font-size: 50px;
+    text-align: center;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+#about-us {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
