@@ -1,2 +1,2 @@
 # gamerstore-example-website
-Patika.dev - CSS Ödev1
+Patika.dev - CSS,HTML
