@@ -9,19 +9,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <!-- HEADER started -->
     <header>
-        <h1 id="page-heading">GAMERSTORE</h1>
         <!-- NAVBAR started -->
-        <nav class="navbar">
-            <ul style="list-style-type:none">
-            <li><a href="index.html">Anasayfa</a></li>
-            <li><a href="about-us.html">Hakkımızda</a></li>
-            <li><a href="contact-us.html">İletişim</a></li>
-            </ul>
-            <hr>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">İletişim</a>
+                   
+                </ul>
+            </div>
+            <div class="mx-auto order-0">
+                <a class="navbar-brand mx-auto" href="index.html">Gamerstore</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giriş Yap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kayıt Ol</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
             
         
@@ -31,49 +54,61 @@
     <!-- MAIN started -->
     <main>
         <!-- ARTICLE started -->
-        <article>
+        <section class="container">
             <h2 id="products-heading">SATILIK OYUNLAR</h2>
-            <section>
-                <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/tr/thumb/5/53/TheWitcher3-WildHunt.KapakResmi.png/220px-TheWitcher3-WildHunt.KapakResmi.png" alt="Witcher3 Oyun Kapağı">
-                <h4 class="game-name">The Witcher 3</h4>
-                <h4 class="game-price">Ürün Fiyatı: 25 TL</h4>
-                <h4 class="game-description-heading">Oyun Açıklaması</h4>
-                <p class="game-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, repellendus corporis. Quae possimus, pariatur quidem corrupti nihil neque quaerat, molestias mollitia sequi tempora, nulla in!</p>
-                <hr>
-            </section>
-            <section>
-                <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Dishonored_box_art_Bethesda.jpg/220px-Dishonored_box_art_Bethesda.jpg" alt="Dishonored Oyun Kapağı">
-                <h4 class="game-name">Dishonored</h4>
-                <h4 class="game-price">Ürün Fiyatı: 30 TL</h4>
-                <h4 class="game-description-heading">Oyun Açıklaması</h4>
-                <p class="game-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum qui, ab aut quis et sint laboriosam dolorem non a magnam suscipit aperiam libero eligendi odio.</p>
-                <hr>
-            </section>
-            <section>
-                <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg/220px-Assassin%27s_Creed_Valhalla_cover.jpg" alt="AC Valhalla Oyun Kapağı">
-                <h4 class="game-name">Assasins's Creed Valhalla</h4>
-                <h4 class="game-price">Ürün Fiyatı: 100 TL</h4>
-                <h4 class="game-description-heading">Oyun Açıklaması</h4>
-                <p class="game-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla obcaecati incidunt, dolor omnis earum doloribus velit. Enim temporibus ipsum modi pariatur quis a perspiciatis? Explicabo!</p>
-                <hr>
-            </section>
-            <section>
-                <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/The_Elder_Scrolls_V_Skyrim_cover.png/220px-The_Elder_Scrolls_V_Skyrim_cover.png" alt="Skyrim Oyun Kapağı">
-                <h4 class="game-name">The Elder Scrolls V Skyrim</h4>
-                <h4 class="game-price">Ürün Fiyatı: 25 TL</h4>
-                <h4 class="game-description-heading">Oyun Açıklaması</h4>
-                <p class="game-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit numquam dolor repellendus ullam quae amet! Sit delectus id quidem velit facilis quas tempore est qui!</p>
-                <hr>
-            </section>
-            <section>
-                <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Dragon_Age_Inquisition_BoxArt.jpg/220px-Dragon_Age_Inquisition_BoxArt.jpg" alt="Dragon Age Oyun Kapağı">
-                <h4 class="game-name">Dragon Age: Inquisition</h4>
-                <h4 class="game-price">Ürün Fiyatı: 50 TL</h4>
-                <h4 class="game-description-heading">Oyun Açıklaması</h4>
-                <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa vitae est, sequi ea nesciunt suscipit facere voluptatibus repellendus qui eos ullam facilis illum explicabo?</p>
-                <hr>
-            </section>    
-        </article>
+            <div class="row">
+                <article class="col-sm-4 card">
+                    <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/tr/thumb/5/53/TheWitcher3-WildHunt.KapakResmi.png/220px-TheWitcher3-WildHunt.KapakResmi.png" alt="Witcher3 Oyun Kapağı">
+                    <h4 class="game-name">The Witcher 3</h4>
+                    <h5 class="game-price">Ürün Fiyatı: 25 TL</h5>
+                    <h5 class="game-description-heading">Oyun Açıklaması</h5>
+                    <hr>
+                    <p class="game-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, repellendus corporis. Quae possimus, pariatur quidem corrupti nihil neque quaerat, molestias mollitia sequi tempora, nulla in!</p>
+                </article>
+                <article class="col-sm-4 card">
+                    <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Dishonored_box_art_Bethesda.jpg/220px-Dishonored_box_art_Bethesda.jpg" alt="Dishonored Oyun Kapağı">
+                    <h4 class="game-name">Dishonored</h4>
+                    <h5 class="game-price">Ürün Fiyatı: 30 TL</h5>
+                    <h5 class="game-description-heading">Oyun Açıklaması</h5>
+                    <hr>
+                    <p class="game-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum qui, ab aut quis et sint laboriosam dolorem non a magnam suscipit aperiam libero eligendi odio.</p>
+                    
+                </article>
+                <article class="col-sm-4 card">
+                    <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg/220px-Assassin%27s_Creed_Valhalla_cover.jpg" alt="AC Valhalla Oyun Kapağı">
+                    <h4 class="game-name-big">Assasins's Creed Valhalla</h4>
+                    <h5 class="game-price">Ürün Fiyatı: 100 TL</h5>
+                    <h5 class="game-description-heading">Oyun Açıklaması</h5>
+                    <hr>
+                    <p class="game-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla obcaecati incidunt, dolor omnis earum doloribus velit. Enim temporibus ipsum modi pariatur quis a perspiciatis? Explicabo!</p>
+                    
+                </article>
+                <article class="col-sm-4 card">
+                    <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/The_Elder_Scrolls_V_Skyrim_cover.png/220px-The_Elder_Scrolls_V_Skyrim_cover.png" alt="Skyrim Oyun Kapağı">
+                    <h4 class="game-name-big">The Elder Scrolls V Skyrim</h4>
+                    <h5 class="game-price">Ürün Fiyatı: 25 TL</h5>
+                    <h5 class="game-description-heading">Oyun Açıklaması</h5>
+                    <hr>
+                    <p class="game-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit numquam dolor repellendus ullam quae amet! Sit delectus id quidem velit facilis quas tempore est qui!</p>
+                </article>
+                <article class="col-sm-4 card">
+                    <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Dragon_Age_Inquisition_BoxArt.jpg/220px-Dragon_Age_Inquisition_BoxArt.jpg" alt="Dragon Age Oyun Kapağı">
+                    <h4 class="game-name-big">Dragon Age: Inquisition</h4>
+                    <h5 class="game-price">Ürün Fiyatı: 50 TL</h5>
+                    <h5 class="game-description-heading">Oyun Açıklaması</h5>
+                    <hr>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa vitae est, sequi ea nesciunt suscipit facere voluptatibus repellendus qui eos ullam facilis illum explicabo?</p>
+                </article>
+                <article class="col-sm-4 card">
+                    <img class="game-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Bethesda_Starfield.jpg/220px-Bethesda_Starfield.jpg" alt="Starfield Oyun Kapağı">
+                    <h4 class="game-name">Starfield</h4>
+                    <h5 class="game-price">Ürün Fiyatı: 500 TL</h5>
+                    <h5 class="game-description-heading">Oyun Açıklaması</h5>
+                    <hr>
+                    <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit culpa vitae est, sequi ea nesciunt suscipit facere voluptatibus repellendus qui eos ullam facilis illum explicabo?</p>
+                </article> 
+            </div>   
+        </section>
         <!-- ARTICLE finished -->
     </main>
     <footer class="footer">
@@ -87,6 +122,6 @@
     
 
     
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
